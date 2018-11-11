@@ -13,10 +13,10 @@ namespace GenrateAndDivide
         static void Main(string[] args)
         {
             var randomNumber = new RandomFinder();
-            var firstRandomNo = randomNumber.GetPseudoRandom();
-            int secRandomNo = randomNumber.GetPseudoRandom();
+            decimal firstRandomNo = randomNumber.GetPseudoRandom();
+            decimal secRandomNo = randomNumber.GetPseudoRandom();
             
-            double result;
+            decimal result;
 
             if (firstRandomNo > secRandomNo)
             {
